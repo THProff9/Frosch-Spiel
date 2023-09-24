@@ -36,5 +36,5 @@ var sec = 0;
 timer = setInterval(()=>{
     ele.innerHTML = '00:'+ sec;
     sec ++;
-},1000)
+},800)
 })()
