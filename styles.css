@@ -1,5 +1,7 @@
 body{
     background-image: url(Hintergrund.png);
+    font-size: 30px;
+    
 }
 .game{
     width: 1200px;
@@ -46,4 +48,10 @@ body{
 @keyframes Bier {
     0%{left: 1100px;}
     100%{left: -100px;}
+}
+
+#js_Timer{
+    position: relative;
+    left: 1480px;
+    color: yellow;
 }
