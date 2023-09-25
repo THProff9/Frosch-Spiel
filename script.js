@@ -32,7 +32,7 @@ var timer;
 var ele = document.getElementById('timer');
 
 (function (){
-var sec = 0;
+var sec = 1;
 timer = setInterval(()=>{
     ele.innerHTML = '00:'+ sec;
     sec ++;
